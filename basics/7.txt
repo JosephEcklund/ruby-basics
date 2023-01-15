@@ -1,0 +1,8 @@
+***What does the following error message tell you?
+
+   SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
+      from /usr/local/rvm/rubies/ruby-2.5.3/bin/irb:16:in `<main>'
+
+
+
+It tells me that I had used an open curly bracket with no closed curly bracket after it.
