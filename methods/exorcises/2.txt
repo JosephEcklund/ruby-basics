@@ -1,0 +1,14 @@
+1. variable x is assign the value of integer 2
+returns 2
+
+2. assigns x the value of 2 and prints its value (2) to the screen.
+returns nil
+
+3. initializes 'name' as a string with the value "Joe" then prints '"Joe"' thus showing its data type.
+returns "Joe"
+
+4. initializes variable:four as the string "four"
+returns "four"
+
+5. initializes variable:something as the string "nothing"
+returns nil
