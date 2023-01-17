@@ -1,0 +1,5 @@
+Variables: Exercise 5
+
+Answer - In the first example 'x' is initialized globally, before the method is called, whereas in the second example, 'y' is initiallized globally but 'x' is initialized inside of the method.  So while 'x' is assigned the same value as 'y' three times, once the method comes to an end the scope of 'x' ends with it and the program doesn't even see 'x' anymore.  Therefore the program throws an error: 
+
+"undefined local variable or method `x'"
