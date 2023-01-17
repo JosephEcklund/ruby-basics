@@ -1,0 +1,12 @@
+Write down whether the following expressions return true or false. Then type the expressions into irb to see the results.
+
+1. (32 * 4) >= 129
+prediction: false; result: false
+2. false != !true
+prediction: false; result: false
+3. true == 4
+prediction: true;  result: false
+4. false == (847 == '847')
+prediction: true;  result: true
+5. (!true || (!(100 / 5) == 20) || ((328 / 4) == 82)) || false
+prediction: true;  result: true
