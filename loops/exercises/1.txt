@@ -1,0 +1,7 @@
+What does the each method in the following program return after it is finished executing?
+
+Prediction: [2, 3, 4, 5, 6] result: [1, 2, 3, 4, 5]
+
+
+My explanation:
+The array was not changed but rather passed the value of the given element into the method which then manipulated the copied value as a variable.
