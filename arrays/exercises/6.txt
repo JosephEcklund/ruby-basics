@@ -1,0 +1,24 @@
+You run the following code...
+
+names = ['bob', 'joe', 'susan', 'margaret']
+names['margaret'] = 'jody'
+
+...and get the following error message:
+
+TypeError: no implicit conversion of String into Integer
+  from (irb):2:in `[]='
+  from (irb):2
+  from /Users/username/.rvm/rubies/ruby-2.5.3/bin/irb:12:in `<main>'
+
+What is the problem and how can it be fixed?
+
+
+
+Solution:
+
+It appears that the intention is to replace the name 'margaret' with 'jody'. 
+names[] is expecting an integer argument in the brackets that points to an element position.  names[3] == 'margaret'.
+
+To replace margaret with jody:
+
+names[3] = 'jody'
