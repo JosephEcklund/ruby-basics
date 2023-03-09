@@ -1,0 +1,10 @@
+Given the following code...
+
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+
+What's the difference between the two hashes that were created?
+
+Answer:
+in my_hash2 the "x" without the colon is treated as the variable x and therefore the key will be set to "hi there".
