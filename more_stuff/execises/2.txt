@@ -1,0 +1,12 @@
+What will the following program print to the screen? What will it return?
+
+def execute(&block)
+  block
+end
+
+execute { puts "Hello from inside the execute method!" }
+
+
+Answer:
+It does not print anything. The block needs to be called with .call
+It returned a Proc object.

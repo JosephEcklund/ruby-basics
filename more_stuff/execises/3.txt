@@ -1,0 +1,4 @@
+What is exception handling and what problem does it solve?
+
+Answer:
+If you run a program without exeption handling and an error in encountered the program will stop running and spit out the error details. Exeption handling is a way to manage errors while executing the rest of the code. Using the 'rescue' method we can allow the errors to occur but also allow the good code after the error to finish executing.
