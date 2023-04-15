@@ -1,0 +1,10 @@
+
+
+10. Can hash values be arrays? Can you have an array of hashes? (give examples)
+
+Since a hash simply requires paired values where the 'key' values are unique within the hash, an array can be a hash value.
+hash01 = { [1, 2, 3]:"phil", [a, b, c]:"jimmy", 6.788:["cat", "dog"] }
+
+
+Since Arrays are ordered sets of values hashes can be array values.
+array02 = [ 4.556, "mouse", {vegetable:"carrot"}, {vegetable:"broccoli"} ]
